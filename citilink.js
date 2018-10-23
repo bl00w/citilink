@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Citilink show sale
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.1.1
 // @description  try to take over the world!
 // @author       You
 // @match https://www.citilink.ru/*/
@@ -12,7 +12,6 @@
     'use strict';
 
     // Your code here...
-    const parser = new DOMParser();
     const parsePrice = strPrice => Number(strPrice.split('').filter(c => c >= '0' && c <= '9').join(''));
 
     const productUrlRegexp = /https:\/\/www\.citilink\.ru\/.*\/\d+\//;
