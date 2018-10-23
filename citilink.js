@@ -6,6 +6,8 @@
 // @author       You
 // @match https://www.citilink.ru/*/
 // @grant        none
+// @downloadURL https://raw.githubusercontent.com/bl00w/citilink/master/citilink.js
+// @updateURL https://raw.githubusercontent.com/bl00w/citilink/master/citilink.js
 // ==/UserScript==
 
 (function() {
